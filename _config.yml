@@ -89,6 +89,13 @@ kramdown:
     # Use existing pygments syntax highlighting css
     css_class: 'highlight'
 
+# Math equation
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :expanded # You might prefer to minify using :compressed

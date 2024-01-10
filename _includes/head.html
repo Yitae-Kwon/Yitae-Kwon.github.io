@@ -8,6 +8,10 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
+{% if page.use_math %}
+  {% include mathjax_support.html %}
+{% endif %}
+
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
   
