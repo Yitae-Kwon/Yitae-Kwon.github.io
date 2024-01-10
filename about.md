@@ -6,10 +6,11 @@ permalink: /about/
 
 Some information about you! testestest
 
-### More Information
+### Education
 
-A place to include any other types of information that you'd like to include about yourself.
+[KOREA SCIENCE ACADEMY OF KAIST](https://www.ksa.hs.kr/Eng)
+[Dept of Statistics, Seoul National University](https://stat.snu.ac.kr/en/)
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[kwonsnu21@snu.ac.kr](mailto:kwonsnu21@snu.ac.kr)
