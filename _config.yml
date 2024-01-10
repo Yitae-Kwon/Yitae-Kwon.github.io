@@ -23,7 +23,7 @@ navigation:
     url: /
   - name: About
     url: /about/about.md
-  - name: Tags
+  - name: 모아보기
     url: /tags
 
 # Pagination
