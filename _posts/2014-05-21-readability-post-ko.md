@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "MZMZ"
+categories: [Test1, Test2]
 tags: [샘플 포스트, 가독성, 테스트]
 comments: true
 ---
