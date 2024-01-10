@@ -22,6 +22,10 @@ James Stewart가 저술한 [CALCULUS](https://www.stewartcalculus.com/)을 기�
 
 이용하시려는 경우 댓글 한 번 남겨주시면 보람찰 것 같습니다 :D
 
+# 링크
+
+[**(1단원 ~ 7단원과 답지)**](https://drive.google.com/file/d/1qOCttPvt72aLEMV9xseH9n1fsR6vYAB8/view): Functions and LImits, Differentiation, Integration
+
 # 대통령은 법률안의 일
 
 대통령은 필요하다고 인정할 때에는 외교·국방·통일 기타 국가안위에 관한 중요정책을 국민투표에 붙일 수 있다. 한 회계연도를 넘어 계속하여 지출할 필요가 있을 때에는 정부는 연한을 정하여 계속비로서 국회의 의결을 얻어야 한다. 제3항의 승인을 얻지 못한 때에는 그 처분 또는 명령은 그때부터 효력을 상실한다. 이 경우 그 명령에 의하여 개정 또는 폐지되었던 법률은 그 명령이 승인을 얻지 못한 때부터 당연히 효력을 회복한다.
