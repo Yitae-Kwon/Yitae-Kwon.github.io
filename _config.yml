@@ -35,10 +35,10 @@ paginate: 5
 footer-links:
   behance: # https://www.behance.net/<username>
   dribbble:
-  email: #kwonsnu21@snu.ac.kr
+  email: kwonsnu21@snu.ac.kr
   facebook:
   flickr:
-  github:#Yitae-Kwon
+  github: Yitae-Kwon
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
   linkedin:
