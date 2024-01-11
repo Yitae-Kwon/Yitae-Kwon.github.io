@@ -28,17 +28,17 @@ comments: true
 # 링크
 
 ### 중간고사
-[**(튜터링1)**](https://drive.google.com/file/d/1YgYrGePHMpgOhgrzXB-BjJNMmTGY8OSR/view?usp=drive_link): 적률추정량과 최대가능도추정량
-[**(튜터링2)**](https://drive.google.com/file/d/1vmM7fwevyYIPe3CiMgDdfPxCq4cRP5iD/view?usp=drive_link): 최대가능도추정량의 점근성질
-[**(튜터링3)**](https://drive.google.com/file/d/1BDFTzT4h8XEog7UWQWK5KGHgasbOk-o-/view?usp=drive_link): 최소제곱추정량
-[**(튜터링4)**](https://drive.google.com/file/d/1yXVrp9fzxT1yzxc4Mv4zTAwx3RYk7bFb/view?usp=drive_link): 베이지안 추론
+[**(튜터링1)**](https://drive.google.com/file/d/1YgYrGePHMpgOhgrzXB-BjJNMmTGY8OSR/view?usp=drive_link): 적률추정량과 최대가능도추정량\\
+[**(튜터링2)**](https://drive.google.com/file/d/1vmM7fwevyYIPe3CiMgDdfPxCq4cRP5iD/view?usp=drive_link): 최대가능도추정량의 점근성질\\
+[**(튜터링3)**](https://drive.google.com/file/d/1BDFTzT4h8XEog7UWQWK5KGHgasbOk-o-/view?usp=drive_link): 최소제곱추정량\\
+[**(튜터링4)**](https://drive.google.com/file/d/1yXVrp9fzxT1yzxc4Mv4zTAwx3RYk7bFb/view?usp=drive_link): 베이지안 추론\\
 **튜터링5**는 질문시간으로 가졌습니다.
 
 ### 기말고사
-[**(튜터링6)**](https://drive.google.com/file/d/1d9p3dGqJwVzjTB4qSLIpY6H0Y4PD7J4D/view?usp=drive_link): 가설검정, 최대가능도비 검정
-[**(튜터링7)**](https://drive.google.com/file/d/1E222rCmGX3O7MSluyg09_3nLyyvBQPp4/view?usp=drive_link): 최대가능도비 검정의 근사, 베이즈 검정
-[**(튜터링8)**](https://drive.google.com/file/d/1kb_zoR_55JASnKsFa4g3D9AJbdtu2TJG/view?usp=drive_link): 통계적 결정이론, UMVUE, 충분통계량, 라오-블랙웰 정리
-[**(튜터링9)**](https://drive.google.com/file/d/15-oKRvJWsX_Ri1N7VdTklcPO9f9MnqJm/view?usp=drive_link): 완비충분통계량, 레만-쉐페 정리, 바수 정리, 크래머-라오 부등식
+[**(튜터링6)**](https://drive.google.com/file/d/1d9p3dGqJwVzjTB4qSLIpY6H0Y4PD7J4D/view?usp=drive_link): 가설검정, 최대가능도비 검정\\
+[**(튜터링7)**](https://drive.google.com/file/d/1E222rCmGX3O7MSluyg09_3nLyyvBQPp4/view?usp=drive_link): 최대가능도비 검정의 근사, 베이즈 검정\\
+[**(튜터링8)**](https://drive.google.com/file/d/1kb_zoR_55JASnKsFa4g3D9AJbdtu2TJG/view?usp=drive_link): 통계적 결정이론, UMVUE, 충분통계량, 라오-블랙웰 정리\\
+[**(튜터링9)**](https://drive.google.com/file/d/15-oKRvJWsX_Ri1N7VdTklcPO9f9MnqJm/view?usp=drive_link): 완비충분통계량, 레만-쉐페 정리, 바수 정리, 크래머-라오 부등식\\
 [**(튜터링10)**](https://drive.google.com/file/d/1ep27mb4hv8QcAncmfcXG5XE_5t5rfVLC/view?usp=drive_link): 베이즈검정, 최강력검정, 전역최강력검정
 
 # Errata
