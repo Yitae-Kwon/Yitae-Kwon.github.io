@@ -20,10 +20,17 @@ permalink: /about/
 **수학**: 금융수학, 확률론, 근사이론, 계산기하\\
 **경제학**: 계량경제학, 국제금융론, 화폐금융론, 금융상품
 
+### Programming Languages
+R, Python, Julia
+
 ### 자랑거리
 제 33회 부산청소년예술제 부산청소년연극제 단체 우수상 (2019)\\
 한국생물올림피아드(KBO) 제44기, 제45기 겨울학교 이수 (2019)\\
 [SNU Financial Economic Research & Seminar(SFERS)](https://www.sfers.com/) 42기 (2023.03 ~)
+
+### Contact me
+
+[kwonsnu21@snu.ac.kr](mailto:kwonsnu21@snu.ac.kr)
 
 ### Talks
 기존에 사용하였던 PPT 슬라이드들입니다.
@@ -33,7 +40,7 @@ permalink: /about/
 
 [**(Introduction to Causal Inference)**](https://drive.google.com/file/d/1x7x2enKDyVxkFjBIpVorlJcaFiOM4FZE/view?usp=drive_link)
 
-[**(Simple Application of `did` Pacakge in R)**](https://drive.google.com/file/d/1m7Q89A8N4J9L8qhejFi9Q6shbWGbtYxh/view?usp=drive_link)
+[**(Simple Application of `did` Package in R)**](https://drive.google.com/file/d/1m7Q89A8N4J9L8qhejFi9Q6shbWGbtYxh/view?usp=drive_link)
 
 [**(Recent Semi-benchmarks for Multi-period DiD)**](https://drive.google.com/file/d/1SLxH5RnfDt_uIXnUWudsS8VAizc5J_3x/view?usp=drive_link)
 
@@ -41,8 +48,3 @@ permalink: /about/
 
 [**(Who Benefits from Gender-Neutral Tenure Clock
 Stopping Policies? And When?: Revisit Antecol(2018))**](https://drive.google.com/file/d/1PgV107H6KobHLB_HaubZ7Wl4BL5q8a5I/view?usp=drive_link)
-
-
-### Contact me
-
-[kwonsnu21@snu.ac.kr](mailto:kwonsnu21@snu.ac.kr)
