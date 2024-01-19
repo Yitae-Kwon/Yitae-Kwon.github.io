@@ -23,7 +23,9 @@ navigation:
     url: /
   - name: About
     url: /about
-  - name: 모아보기
+  - name: Textbooks
+    url: /books
+  - name: Tags
     url: /tags
 
 # Pagination
