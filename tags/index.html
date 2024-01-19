@@ -25,7 +25,7 @@ permalink: /tags/
       {{ tag[0] }}
     </h2>
     <ul class="tag">
-      {% for post in tag[1] %}
+      {% for post in tag[1] | reverse %}
         {% if post.title != null %}
           <li>
             {% if post.link %}
