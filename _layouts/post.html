@@ -21,13 +21,12 @@ layout: default
     </ul>
   </div>
 
-  <div class="toc">
-    <a href="#"><b>Contents</b></a>
-    {% include toc.html html=content %}
-  </div>
-
   <div class="entry">
+    <aside>
+      {% include toc.html html=content %}   
+    </aside>
     {{ content }}
+    
   </div>
 
   <div class="pagination">
