@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "교재: 기초통계학"
-tags: [교재, 기초통계학]
+tags: [Textbooks, Elementary Statistics]
 use_math: true
 comments: true
 ---

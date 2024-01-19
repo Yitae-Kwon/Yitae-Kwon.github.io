@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "교재: 수리통계2"
-tags: [교재, 수리통계]
+tags: [Textbooks, Mathematical Statistics]
 use_math: true
 comments: true
 ---
