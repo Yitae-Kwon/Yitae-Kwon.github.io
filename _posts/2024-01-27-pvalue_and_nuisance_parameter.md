@@ -60,12 +60,12 @@ comments: true
 Berger와 Boos는 일반적인 상황에서도 nuisance parameter에 대한 confidence interval을 통해 적절한 p값을 내놓을 수 있는 방법을 제안하였습니다. 
 
 먼저 nuisance parameter $\theta$에 대한 $1-\beta$ confidence interval을 $C_{\beta}$라고 하면, 
-\[p_{\beta} = \min\{\sup_{\theta \in C_{\beta}} p(\theta) + \beta, 1\}\]
+\[p_{\beta} = \min\left\lbrace\sup_{\theta \in C_{\beta}} p(\theta) + \beta, 1\right\rbrace\]
 로 p값을 계산합니다. 일반적으로 $\alpha = 0.05$에 비하여 충분히 작은 $\beta = 0.001$ 혹은 $\beta = 0.0001$을 선택합니다. 이 방법은 $\sup_{\theta}$에 대한 계산을 unbounded set일 가능성이 높은 $\theta$의 모수공간 $\Theta$에서 수행하는 대신, 축소된 공간 $C_{\beta}$에서 수행한다는 점에서 수리적/계산적 복잡도를 감소시킵니다. 
 
 그 증명은 매우 간단합니다. 귀무가설이 참이라고 하는 경우, $\beta \le \alpha$로 설정하므로, 
 \[\begin{aligned} P(p_{\beta} \le \alpha) &= P(p_{\beta} \le \alpha, \theta_0 \in C_{\beta}) +  P(p_{\beta} \le \alpha, \theta_0 \notin C_{\beta})\\ 
-&\le P(p(\theta_0) + \beta \le \alpha, \theta_0 \in C_{\beta}) + P(\theta_0 \notin C_{\beta})\\
+&= P(p(\theta_0) + \beta \le \alpha, \theta_0 \in C_{\beta}) + P(\theta_0 \notin C_{\beta})\\
 &\le P(p(\theta_0) \le \alpha - \beta) + \beta\\
 &\le \alpha - \beta + \beta = \alpha
 \end{aligned}\]
