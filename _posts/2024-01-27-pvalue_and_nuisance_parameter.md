@@ -13,15 +13,15 @@ comments: true
 
 ### Pedagogical Example About a Normal Mean
 간단한 상황으로, 
-$$X_i \sim_{i.i.d} N(\mu, \sigma^2), \quad i = 1, 2, \cdots, n$$
+\[X_i \sim_{i.i.d} N(\mu, \sigma^2), \quad i = 1, 2, \cdots, n\]
 의 표본을 얻어 
-$$H_0: \mu = \mu_0, \; \textnormal{vs.} \; H_1: \mu \neq \mu_1$$
+\[H_0: \mu = \mu_0, \; \textnormal{vs.} \; H_1: \mu \neq \mu_1\]
 을 검정하는 상황을 고려하여 봅시다. 이 경우 모수모형에는 $\sigma^2$이 포함되면서, 가설 검정과 추론에서는 관심을 주지 않기에 $\sigma^2$은 장애모수입니다. 
 
 만약 $\sigma^2$이 어떤 값인지 알고 있다면, 가장 효율적인 검정은 z-통계량
-$$Z = \dfrac{\sqrt{n}(\bar{X} - \mu_0)}{\sigma}$$
+\[Z = \dfrac{\sqrt{n}(\bar{X} - \mu_0)}{\sigma}\]
 를 사용해 검정을 진행하는 것이며, 양방향 p값은 $\sigma^2$에 대한 함수 
-$$p(\sigma^2) = 2\Phi(-|z_{\textnormal{obs}}|)$$
+\[p(\sigma^2) = 2\Phi(-|z_{\textnormal{obs}}|)\]
 으로 얻어지는 것이 일반적입니다.
 
 그러나 $\sigma^2$이 무슨 값인지 모른다면, 우리는 그 검정을 위하여 t-검정을 주로 사용합니다. 다르게 말하면, $\sigma^2$을 추정해야 하는 과정이 부차적으로 들어가야 하며, 표본분산 $s^2$에 관련한 적절한 검정 방법이 개발되어 있어야만 합니다. 이 케이스는 매우 간단하기에 다행히도 t-검정을 사용하면 되지만, 그러지 못한 경우가 더욱 많습니다.

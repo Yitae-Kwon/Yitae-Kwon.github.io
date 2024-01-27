@@ -4,6 +4,10 @@
   <body>
     {% include nav.html %}
 
+    {% if page.use_math %}
+	{% include mathjax_support.html %}
+{% endif %}
+
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
