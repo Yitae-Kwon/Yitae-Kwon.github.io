@@ -39,7 +39,7 @@ comments: true
 이때 자주 사용하는 방법 중 하나는 Welch's t-test를 이용하는 것입니다. Welch의 검정통계량
 \[t_w = \dfrac{\bar{X} - \bar{Y}}{\sqrt{\frac{s_1^2}{m} + \frac{s_2^2}{n}}}\]
 은 적절한 자유도 $\nu = \nu(s_1^2, s_2^2, m, n)$의 t분포를 따름이 알려져 있습니다. 허나 이 방법은 특정한 $m, n$과 $\rho = \sigma_2^2/\sigma_1^2$의 조합 하에서 p값이 가져야 할 조건 중 하나인
-\[P(p \le \alpha) \le \alpha, \; \forall \alpha \in [0, 1]\]
+\[P(p \le \alpha) \le \alpha, \; \forall \alpha \in \[0, 1\]\]
 을 만족하지 못함이 알려져 있습니다. 다르게 말하면, 적절하지 못한 실험 상황에서는 검정이 불완전합니다. 
 
 ### Type 1 Error Rate and P value with Nuisance Parameter
