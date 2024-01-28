@@ -84,6 +84,8 @@ Behrens-Fisher Problem에서도 마찬가지입니다. $m$과 $n$이 고정되�
 \[p_{0.001} = \sup_{\rho \in (0.32, 38.72)} p(\rho) + 0.001 = 0.049\]
 로 나타나 유의수준 0.05에서 검정에 성공함을 확인할 수 있었습니다. 
 ![P Value Graph](../images/240128-1.png){: .align-center}
+<img src='../images/240128-1.png' align='center'/>
+출처: https://wotres.tistory.com/entry/markdown-에서-이미지-입력-및-정렬하는법 [Carl's Tech Blog:티스토리]
 다른 p값들과 비교해보면, Welch p값이 0.041, pooled t p값이 0.065, Behrens-Fisher p값이 0.050으로 confidence interval method가 기존의 방법과 유사한 p값을 제시함을 알 수 있습니다.
 
 # References
