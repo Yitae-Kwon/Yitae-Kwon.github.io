@@ -83,7 +83,7 @@ Berger와 Boos는 일반적인 상황에서도 nuisance parameter에 대한 conf
 Behrens-Fisher Problem에서도 마찬가지입니다. $m$과 $n$이 고정되었을 때 귀무가설 하에서 $t_w$의 분포는 $\rho = \sigma_2^2/\sigma_1^2$의 값에만 의존합니다. Berger와 Boos는 이를 이용하여 $m = 9$, $n = 13$, $\mu_1 = 0$, $\mu_2 = 6.225$, $\sigma_1^2 = 18$, $\sigma_2^2 = 78$인 상황에서 $p$값을 구하였습니다. 이때 F분포를 따르는 $\rho$의 0.999 confidence interval(즉, $\beta = 0.001$)은 $(0.32, 38.72)$로 주어졌으며, 이 범위에서 
 \[p_{0.001} = \sup_{\rho \in (0.32, 38.72)} p(\rho) + 0.001 = 0.049\]
 로 나타나 유의수준 0.05에서 검정에 성공함을 확인할 수 있었습니다. 
-![P Value Graph](../images/240128-1.png){: .align-center}
+![P Value Graph](../images/240128-1.png){: .center}
 다른 p값들과 비교해보면, Welch p값이 0.041, pooled t p값이 0.065, Behrens-Fisher p값이 0.050으로 confidence interval method가 기존의 방법과 유사한 p값을 제시함을 알 수 있습니다.
 
 # References
