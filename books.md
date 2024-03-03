@@ -4,7 +4,7 @@ title: Textbooks
 permalink: /books/
 ---
 
-This is a space for self-made textbooks(or workbooks). Below are the short cuts.
+This is a space for self-made textbooks(or workbooks). Below are the shortcuts.
 
 ### [Calculus1](https://yitae-kwon.github.io/book-cal1/)
 
