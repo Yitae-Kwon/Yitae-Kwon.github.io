@@ -13,16 +13,18 @@ comments: true
 \[\pi_{ij} = P(i, j \in A) = \sum_{A; \; i, j \in A} P(A)\]
 를 정의할 수도 있습니다. 만약 모집단이 $U$일 때 모든 $i, j \in U$에 대하여 $\pi_{ij} > 0$이라면, 이러한 표본추출 방법은 **가측표본추출(measurable sampling design)**이라 부릅니다.
 
+
 ### Horvitz-Thompson 추정량
 확률표본추출로 얻은 표본에서, 모집단 총계 $Y = \sum_{i=1}^N y_i$의 비편향추정량으로는 **Horvitz-Thompson 추정량(HT estimator)**을 사용할 수 있습니다. 그 형태는
-\[\hat{Y}_{\text{HT}} = \sum_{i \in A} \dfrac{y_i}{\pi_i}\]
+\[\hat{Y}_{\text{HT}} = \sum _{i \in A} \dfrac{y_i}{\pi_i} \]
 으로 주어지며, 가장 기본적으로 $Y$의 *비편향추정량*이라는 점에서 자주 사용됩니다. 
 
 이는 매우 간단하게 증명할 수 있습니다. 먼저 $\hat{Y}_{\text{HT}}$의 계산에서 등장하는 $i \in A$에 대한 합산을 표본포함지시변수 $I_i = I(i \in A)$를 이용하여 표현하면, 
 \[\hat{Y}_{\text{HT}} = \sum_{i=1}^N \dfrac{y_i}{\pi_i} I_i\]
 이며 양변에 기댓값을 씌운다면
+
 \[\text{E}[\hat{Y}_{\text{HT}}] = \sum_{i=1}^N \dfrac{y_i}{\pi_i} \text{E}[I_i] = \sum_{i=1}^N \dfrac{y_i}{\pi_i} \pi_i = Y\]
-임을 쉳게 얻기 때문입니다.
+임을 얻기 때문입니다.
 
 한편 이를 이용하면 분산 역시 쉽게 얻을 수 있습니다. 분산은
 \[\text{Var}(\hat{Y}_{\text{HT}}) = \sum_{i = 1}^N \sum_{j=1}^N \dfrac{y_i}{\pi_i} \dfrac{y_j}{\pi_j} \text{Cov}(I_i, I_j)\]
@@ -31,6 +33,7 @@ comments: true
 이기 때문에, 정리하면 
 \[\text{Var}(\hat{Y}_{\text{HT}}) = \sum_{i = 1}^N \sum_{j=1}^N (\pi_{ij} - \pi_i \pi_j) \dfrac{y_i}{\pi_i} \dfrac{y_j}{\pi_j}\]
 을 얻습니다. 
+
 
 ### Horvitz-Thompson 추정량의 성질들
 HT 추정량은 확률추출방법으로 정의된 표본에서만 작동 가능한 총계의 비편향추정량입니다. HT 추정량은 아래와 같은 성질들을 가집니다.
