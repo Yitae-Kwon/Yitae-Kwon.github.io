@@ -11,12 +11,12 @@ permalink: /about/
 [KOREA SCIENCE ACADEMY OF KAIST](https://www.ksa.hs.kr/Eng), (2018.03 ~ 2021.02)
 \\
 [Dept of Statistics, Seoul National University](https://stat.snu.ac.kr/en/), (2021.03 ~ Present)\\
-(Double Majors: Mathematics and Economics)
+(Double Majors: Mathematical Sciences and Economics)
 
-### Research Interests
-**Statistics**: Causal Inference, Nonparametric Inference, Multiple Testing\\
+### Academic Interests
+**Statistics**: Causal Inference, Nonparametric Statistics, Multiple Comparisons\\
 **Mathematics**: Mathematical Finance, Probability Theory, Learning Theory\\
-**Economics**: Econometrics, International Macroeconomics, Investment Theory
+**Economics**: Econometrics, Monetary Economics, Investment Theory
 
 ### Programming Languages
 R, Python, Julia
@@ -31,7 +31,7 @@ R, Python, Julia
 [kwonsnu21@snu.ac.kr](mailto:kwonsnu21@snu.ac.kr)
 
 ### Talks
-These are the previously used PPT slide.
+These are the previously used PPT slide in my SFERS team.
 
 [**(Introduction to Nonparametric Statistics)**](https://drive.google.com/file/d/15RSSGAnmfUEYGYAHRumQ9qyVitB9LR_U/view?usp=drive_link)
 
