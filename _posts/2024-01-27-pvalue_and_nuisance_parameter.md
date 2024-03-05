@@ -53,7 +53,7 @@ $$p = \sup_{\theta} P_{\nu_0, \theta}(T \ge t_{obs})$$
 - $H_0$에 대해 보조통계량이 되는 적절한 검정통계량 $T$를 찾아 그 영분포가 $\theta$에 무관하게 만들 수 있다면, $\sup_{\theta}$의 계산이 의미가 없어집니다.
 - $H_0$ 하에서 $\theta$의 충분통계량이 되는 $S$를 찾고, 이에 대한 조건부확률 $p = P_{\nu_0}(T \ge t | S = s)$를 이용하 수 있습니다.
 이들은 모두 결국 $\sup_{\theta}$의 계산을 한 번의 확률 계산으로 대체하는 동시에, 
-\[P(p \le \alpha) \le \alpha, \; \forall \alpha \in {[0, 1]}\]
+$$P(p \le \alpha) \le \alpha, \; \forall \alpha \in {[0, 1]}$$
 를 만족하는 p값을 내놓을 수 있습니다. 하지만 이러한 방법들은 매우 특별한 모형이 가정되었을 때에만 이용될 수 있습니다. 
 
 ### Confidence Interval Method

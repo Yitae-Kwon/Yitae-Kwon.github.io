@@ -54,7 +54,7 @@ $$\hat{Q} = \sum_{i \in A} \sum_{j \in A} \dfrac{1}{\pi_{ij}} q(y_i, y_j)$$
 4. 이를 이용하면, HT 추정량의 분산 역시 가측표본추출된 표본에서는 비편향추정량을 가집니다. 이를 식으로 쓰면 
 $$\widehat{\text{Var}}(\hat{Y}_{\text{HT}}) = \sum _{i \in A} \sum _{j \in A} \dfrac{\pi _{ij} - \pi_i \pi_j}{\pi_{ij}} \dfrac{y_i}{\pi_i}  \dfrac{y_j}{\pi_j}$$
 과 같습니다. 더불어, 고정표본수 추출인 경우 SYG 공식을 이용하면 
-$$widehat{\text{Var}}(\hat{Y} _{\text{HT}}) = -\dfrac{1}{2} \sum _{i \in A} \sum _{j \in A} \dfrac{\pi _{ij} - \pi_i \pi_j}{\pi_{ij}} \left(\dfrac{y_i}{\pi_i}  - \dfrac{y_j}{\pi_j}\right)^2$$
+$$\widehat{\text{Var}}(\hat{Y} _{\text{HT}}) = -\dfrac{1}{2} \sum _{i \in A} \sum _{j \in A} \dfrac{\pi _{ij} - \pi_i \pi_j}{\pi_{ij}} \left(\dfrac{y_i}{\pi_i}  - \dfrac{y_j}{\pi_j}\right)^2$$
 으로 쓸 수 있기도 합니다.
 
 5. HT 추정량은 $Y$의 일치추정량입니다.
