@@ -21,17 +21,14 @@ permalink: /about/
 ### Programming Languages
 R, Python, Julia
 
-### 자랑거리
-제 33회 부산청소년예술제 부산청소년연극제 단체 우수상 (2019)\\
-한국생물올림피아드(KBO) 제44기, 제45기 겨울학교 이수 (2019)\\
-[SNU Financial Economic Research & Seminar(SFERS)](https://www.sfers.com/), 42nd (2023.03 ~)
-
 ### Contact me
 
 [kwonsnu21@snu.ac.kr](mailto:kwonsnu21@snu.ac.kr)
 
 ### Talks
 These are the previously used PPT slide in my SFERS team.
+
+[**(SFERS DATA Seminar with Python)**](https://github.com/Yitae-Kwon/Sfers2024SpringData/tree/e1550d76a4240ac8e0ffb0c3c03d8ec21b57feaa/text)
 
 [**(Introduction to Nonparametric Statistics)**](https://drive.google.com/file/d/15RSSGAnmfUEYGYAHRumQ9qyVitB9LR_U/view?usp=drive_link)
 
@@ -45,3 +42,5 @@ These are the previously used PPT slide in my SFERS team.
 
 [**(Who Benefits from Gender-Neutral Tenure Clock
 Stopping Policies? And When?: Revisit Antecol(2018))**](https://drive.google.com/file/d/1PgV107H6KobHLB_HaubZ7Wl4BL5q8a5I/view?usp=drive_link)
+
+[**(SFERS DATA Seminar with Python)**]
