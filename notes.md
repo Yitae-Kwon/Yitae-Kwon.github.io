@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Textbooks
-permalink: /books/
+title: Notes
+permalink: /notes/
 ---
 
-직접 만든 교재(혹은 연습문제집)들에 접근 가능한 링크입니다.
+직접 만든 노트들에 접근 가능한 링크입니다.
 
 ### [미적분학1](https://yitae-kwon.github.io/book-cal1/)
 
