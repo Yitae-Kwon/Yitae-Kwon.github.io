@@ -26,7 +26,6 @@ R, Python, Julia
 [kwonsnu21@snu.ac.kr](mailto:kwonsnu21@snu.ac.kr)
 
 ### Talks
-These are the previously used PPT slide in my SFERS team.
 
 [**(SFERS DATA Seminar with Python)**](https://github.com/Yitae-Kwon/Sfers2024SpringData/tree/e1550d76a4240ac8e0ffb0c3c03d8ec21b57feaa/text)
 
@@ -42,5 +41,3 @@ These are the previously used PPT slide in my SFERS team.
 
 [**(Who Benefits from Gender-Neutral Tenure Clock
 Stopping Policies? And When?: Revisit Antecol(2018))**](https://drive.google.com/file/d/1PgV107H6KobHLB_HaubZ7Wl4BL5q8a5I/view?usp=drive_link)
-
-[**(SFERS DATA Seminar with Python)**]

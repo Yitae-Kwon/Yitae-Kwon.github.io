@@ -4,12 +4,12 @@ title: Textbooks
 permalink: /books/
 ---
 
-This is a space for self-made textbooks(or workbooks). Below are the shortcuts.
+직접 만든 교재(혹은 연습문제집)들에 접근 가능한 링크입니다.
 
-### [Calculus1](https://yitae-kwon.github.io/book-cal1/)
+### [미적분학1](https://yitae-kwon.github.io/book-cal1/)
 
-### [Calculus2](https://yitae-kwon.github.io/book-cal2/)
+### [미적분학2](https://yitae-kwon.github.io/book-cal2/)
 
-### [Elementary Statistics](https://yitae-kwon.github.io/book-elstat/)
+### [기초통계학](https://yitae-kwon.github.io/book-elstat/)
 
-### [Mathematical Statistics2](https://yitae-kwon.github.io/book-mathstat2/)
+### [수리통계2](https://yitae-kwon.github.io/book-mathstat2/)
