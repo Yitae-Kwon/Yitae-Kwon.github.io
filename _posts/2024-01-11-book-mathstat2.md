@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "교재: 수리통계2(김우철 수리통계)"
-tags: [Textbooks, Mathematical Statistics]
+title: "노트: 수리통계2(김우철저 수리통계)"
+tags: [노트, 수리통계]
 use_math: true
 comments: true
 ---
