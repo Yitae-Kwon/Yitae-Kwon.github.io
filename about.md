@@ -15,7 +15,7 @@ permalink: /about/
 
 ### Academic Interests
 **Statistics**: Causal Inference, Nonparametric Statistics, Multiple Comparisons\\
-**Mathematics**: Mathematical Finance, Probability Theory, Learning Theory\\
+**Mathematics**: Mathematical Finance, Probability Theory, PDE, Numerical Analysis\\
 **Economics**: Econometrics, Monetary Economics, Investment Theory
 
 ### Programming Languages
