@@ -8,20 +8,20 @@ permalink: /about/
 
 ### Education
 
-[KOREA SCIENCE ACADEMY OF KAIST](https://www.ksa.hs.kr/Eng), (2018.03 ~ 2021.02)
+[KOREA SCIENCE ACADEMY OF KAIST](https://www.ksa.hs.kr/Eng), (Mar 2018 - Feb 2021)
 \\
-[Dept of Statistics, Seoul National University](https://stat.snu.ac.kr/en/), (2021.03 ~ Present)\\
-(Double Majors: Mathematical Sciences and Economics)
+[Dept of Statistics, Seoul National University](https://stat.snu.ac.kr/en/), (Mar 2021 - Feb 2025, Expected)\\
+(Double Majors: Mathematics and Economics)
 
 ### Academic Interests
 **Statistics**: Causal Inference, Nonparametric Statistics, Multiple Comparisons\\
-**Mathematics**: Mathematical Finance, Probability Theory, PDE, Numerical Analysis\\
+**Mathematics**: Mathematical Finance, Probability Theory, Numerical Analysis\\
 **Economics**: Econometrics, Monetary Economics, Investment Theory
 
 ### Programming Languages
 R, Python, Julia
 
-### Contact me
+### Contact
 
 [kwonsnu21@snu.ac.kr](mailto:kwonsnu21@snu.ac.kr)
 
