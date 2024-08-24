@@ -8,8 +8,6 @@ permalink: /about/
 
 ### Education
 
-[KOREA SCIENCE ACADEMY OF KAIST](https://www.ksa.hs.kr/Eng), (Mar 2018 - Feb 2021)
-\\
 [Dept of Statistics, Seoul National University](https://stat.snu.ac.kr/en/), (Mar 2021 - Feb 2025, Expected)\\
 (Double Majors: Mathematics and Economics)
 
@@ -27,7 +25,7 @@ R, Python, Julia
 
 ### Talks
 
-[**(SFERS DATA Seminar with Python)**](https://github.com/Yitae-Kwon/Sfers2024SpringData/tree/e1550d76a4240ac8e0ffb0c3c03d8ec21b57feaa/text)
+[**(SFERS DATA Seminar with Python)**](https://github.com/Yitae-Kwon/Sfers2024SpringData/tree/main/text)
 
 [**(Introduction to Nonparametric Statistics)**](https://drive.google.com/file/d/15RSSGAnmfUEYGYAHRumQ9qyVitB9LR_U/view?usp=drive_link)
 
