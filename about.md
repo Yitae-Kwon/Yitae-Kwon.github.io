@@ -8,8 +8,8 @@ permalink: /about/
 
 ### Education
 
-Seoul National University, Seoul, Republic of Korea\\
-- B.S., Statistics, Mathematics(double major), and Economics(double major). [Mar 2021 - Feb 2025]
+B.S. in Seoul National University, Seoul, Republic of Korea
+- Statistics, Mathematics(double major), and Economics(double major). [Mar 2021 - Feb 2025]
 
 ### Academic Interests
 **Statistics**: Causal Inference, Nonparametric Statistics, Multiple Comparisons\\
