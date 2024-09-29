@@ -8,13 +8,15 @@ permalink: /about/
 
 ### Education
 
-[Dept of Statistics, Seoul National University](https://stat.snu.ac.kr/en/), (Mar 2021 - Feb 2025, Expected)\\
-(Double Majors: Mathematics and Economics)
+Seoul National University, Seoul, Republic of Korea\\
+- B.S., Statistics, Mathematics(double major), and Economics(double major). [Mar 2021 - Feb 2025]
 
 ### Academic Interests
 **Statistics**: Causal Inference, Nonparametric Statistics, Multiple Comparisons\\
-**Mathematics**: Mathematical Finance, Probability Theory, Numerical Analysis\\
+**Mathematics**: Mathematical Finance, Learning Theory, Numerical Analysis\\
 **Economics**: Econometrics, Monetary Economics, Investment Theory
+
+Nowadays, I'm especially interested in **monetary policy**, **financial stability**, and the role of central banks.
 
 ### Programming Languages
 R, Python, Julia
