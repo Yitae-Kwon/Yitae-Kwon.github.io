@@ -8,7 +8,7 @@ permalink: /about/
 
 ### Education
 
-B.S. in Statistics, Mathematics<sup>\*</sup>, and Economics<sup>\*</sup>, Seoul National University\\ 
+B.S. in Statistics, Mathematics\*, and Economics\*, Seoul National University\\ 
 [Mar 2021 - Feb 2025] (\*Double Major)
 
 ### Academic Interests
