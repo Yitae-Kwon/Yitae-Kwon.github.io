@@ -8,15 +8,15 @@ permalink: /about/
 
 ### Education
 
-B.S. in Seoul National University, Seoul, Republic of Korea
-- Statistics, Mathematics(double major), and Economics(double major). [Mar 2021 - Feb 2025]
+B.S. in Statistics, Mathematics^*, and Economics^*, Seoul National University 
+[Mar 2021 - Feb 2025] (*Double Major)
 
 ### Academic Interests
 **Statistics**: Causal Inference, Nonparametric Statistics, Multiple Comparisons\\
 **Mathematics**: Mathematical Finance, Learning Theory, Numerical Analysis\\
 **Economics**: Econometrics, Monetary Economics, Investment Theory
 
-Nowadays, I'm especially interested in **monetary policy**, **financial stability**, and the role of central banks.
+I'm especially interested in **monetary policy** and **financial stability** recently.
 
 ### Programming Languages
 R, Python, Julia
@@ -25,7 +25,7 @@ R, Python, Julia
 
 [kwonsnu21@snu.ac.kr](mailto:kwonsnu21@snu.ac.kr)
 
-### Talks
+### Talks (In Korean)
 
 [**(SFERS DATA Seminar with Python)**](https://github.com/Yitae-Kwon/Sfers2024SpringData/tree/main/text)
 
