@@ -6,9 +6,13 @@ permalink: /about/
 
 권이태(Yitae Kwon, 權怡兌)
 
+### Employment
+
+The Bank of Korea [Jan 2025 - Present]
+
 ### Education
 
-B.S. in Statistics, Mathematics\*, and Economics\*, Seoul National University   
+B.S./A. in Statistics, Mathematics\*, and Economics\*, Seoul National University   
 [Mar 2021 - Feb 2025] (\*Double Major)
 
 ### Academic Interests
