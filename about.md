@@ -20,7 +20,7 @@ B.S./A. in Statistics, Mathematics\*, and Economics\*, Seoul National University
 **Mathematics**: Mathematical Finance, Learning Theory, Numerical Analysis\\
 **Economics**: Econometrics, Monetary Economics, Investment Theory
 
-I'm especially interested in **monetary policy** and **financial stability** recently.
+I'm interested in **monetary policy** and **financial stability** recently.
 
 ### Programming Languages
 R, Python, Julia

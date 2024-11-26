@@ -13,3 +13,5 @@ permalink: /notes/
 ### [기초통계학](https://yitae-kwon.github.io/book-elstat/)
 
 ### [수리통계2](https://yitae-kwon.github.io/book-mathstat2/)
+
+### [한국은행 통계직렬 준비자료](https://yitae-kwon.github.io/bok-stat/)
