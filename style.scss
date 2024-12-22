@@ -665,33 +665,39 @@ footer {
 }
 
 .search-container {
-  margin-top: 20px;
-  margin-bottom: 30px;
+  position: fixed; /* 고정 위치 설정 */
+  top: 20px; /* 상단에서 20px 떨어짐 */
+  right: 20px; /* 오른쪽에서 20px 떨어짐 */
+  z-index: 9999; /* 다른 요소 위에 표시되도록 설정 */
 }
 
 .search-form {
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: white; /* 필요시 배경색 추가 */
+  padding: 5px 15px; /* 여백 조정 */
+  border-radius: 5px; /* 테두리 둥글게 */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* 그림자 추가 */
 }
 
 .search-input {
-  width: 300px;
-  padding: 10px;
+  width: 200px; /* 입력창 너비 */
+  padding: 8px;
   font-size: 16px;
-  margin-right: 10px;
+  margin-right: 10px; /* 버튼과 간격 조정 */
 }
 
 .search-submit {
-  padding: 10px 20px;
+  padding: 8px 15px;
   font-size: 16px;
+  background-color: #007bff; /* 버튼 배경색 */
+  color: white; /* 글자 색 */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
-#search-results {
-  margin-top: 20px;
-}
-
-#search-results .search-result {
-  margin-bottom: 10px;
-  padding: 10px;
-  background-color: #f9f9f9;
+.search-submit:hover {
+  background-color: #0056b3; /* 버튼 hover 시 색상 */
 }
