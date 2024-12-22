@@ -8,14 +8,11 @@ permalink: /about/
 
 ### Employment
 
-[Jan 2025 - Present]<br>
-Junior Economist, Bank of Korea 
+[Jan 2025 - Present] Junior Economist, Bank of Korea 
 
 ### Education
 
-[Mar 2021 - Feb 2025]<br>
-B.S./A. in Statistics, Mathematics\*, and Economics\*, Seoul National University<br> 
-(\*Double Major)
+[Mar 2021 - Feb 2025] B.S./A. in Statistics, Mathematics\*, and Economics\*, Seoul National University (\*Double Major)
 
 ### Academic Interests
 **Statistics**: Causal Inference / Nonparametric Statistics<br>
