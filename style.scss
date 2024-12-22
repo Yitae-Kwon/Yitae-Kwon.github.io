@@ -665,39 +665,76 @@ footer {
 }
 
 .search-container {
-  position: fixed; /* 고정 위치 설정 */
-  top: 20px; /* 상단에서 20px 떨어짐 */
-  right: 20px; /* 오른쪽에서 20px 떨어짐 */
-  z-index: 9999; /* 다른 요소 위에 표시되도록 설정 */
-}
-
-.search-form {
+  position: fixed;  /* 화면에 고정 */
+  top: 20px;         /* 상단에서 20px 떨어짐 */
+  right: 20px;       /* 오른쪽에서 20px 떨어짐 */
+  z-index: 9999;     /* 다른 요소들 위에 표시 */
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white; /* 필요시 배경색 추가 */
-  padding: 5px 15px; /* 여백 조정 */
-  border-radius: 5px; /* 테두리 둥글게 */
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* 그림자 추가 */
+  padding: 8px 15px;
+  border-radius: 50px; /* 둥근 테두리 */
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 부드러운 그림자 */
+  transition: all 0.3s ease-in-out; /* 애니메이션 효과 */
+}
+
+/* 검색폼 입력창 */
+.search-form {
+  display: flex;
+  align-items: center;
+  width: 350px; /* 입력창 너비 */
+  border-radius: 50px; /* 둥근 입력창 */
 }
 
 .search-input {
-  width: 200px; /* 입력창 너비 */
-  padding: 8px;
-  font-size: 16px;
-  margin-right: 10px; /* 버튼과 간격 조정 */
+  flex: 1;               /* 공간을 다 채움 */
+  padding: 12px 20px;     /* 패딩 조정 */
+  font-size: 16px;        /* 글자 크기 */
+  border: 2px solid #ddd; /* 테두리 색상 */
+  border-radius: 50px;    /* 둥근 입력창 */
+  outline: none;          /* 포커스 시 외각선 제거 */
+  transition: border-color 0.3s; /* 테두리 색상 애니메이션 */
+}
+
+.search-input:focus {
+  border-color: #007bff;  /* 포커스 시 테두리 색상 변경 */
 }
 
 .search-submit {
-  padding: 8px 15px;
+  padding: 12px 20px;
   font-size: 16px;
-  background-color: #007bff; /* 버튼 배경색 */
-  color: white; /* 글자 색 */
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
+  background-color: #007bff; /* 버튼 배경 색 */
+  color: white;              /* 버튼 텍스트 색 */
+  border: none;              /* 테두리 없애기 */
+  border-radius: 50px;       /* 둥근 버튼 */
+  cursor: pointer;          /* 마우스 커서 변경 */
+  transition: background-color 0.3s; /* 배경색 애니메이션 */
+  margin-left: 10px;         /* 입력창과 버튼 간 간격 */
 }
 
 .search-submit:hover {
-  background-color: #0056b3; /* 버튼 hover 시 색상 */
+  background-color: #0056b3; /* 버튼 hover 시 색상 변경 */
+}
+
+/* 검색결과 영역 */
+#search-results {
+  margin-top: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+#search-results .search-result {
+  padding: 12px;
+  border-bottom: 1px solid #f0f0f0;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#search-results .search-result:hover {
+  background-color: #f7f7f7; /* 검색결과 hover 시 배경색 변경 */
 }
