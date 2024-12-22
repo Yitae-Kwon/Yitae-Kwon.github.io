@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko"> <!-- 한국어 지원을 위해 lang 속성 변경 -->
   {% include head.html %}
   <body>
     {% include nav.html %}
 
     {% if page.use_math %}
-	{% include mathjax_support.html %}
-{% endif %}
+      {% include mathjax_support.html %}
+    {% endif %}
+
+    <!-- 검색 폼 추가 -->
+    <div class="search-container">
+      {% include search.html %} <!-- 검색 폼 포함 -->
+    </div>
 
     <div id="main" role="main" class="container">
       {{ content }}
@@ -21,5 +26,17 @@
     </div>
 
     {% include analytics.html %}
+    
+    <!-- Jekyll Search Script -->
+    <script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.7.3/dest/simple-jekyll-search.min.js"></script>
+    <script>
+      var search = new SimpleJekyllSearch({
+        searchInput: '#search-input',
+        resultsContainer: '#search-results',
+        json: '{{ site.baseurl }}/search.json'
+      });
+      
+      search.init();
+    </script>
   </body>
 </html>
