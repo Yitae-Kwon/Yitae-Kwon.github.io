@@ -1,0 +1,15 @@
+.tags .tag-container {
+  margin-left: 20px;
+  padding: 10px;
+  border-left: 2px solid #ccc;
+}
+
+.tags .label a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #0073e6;
+}
+
+.tags .label a:hover {
+  text-decoration: underline;
+}

@@ -502,46 +502,58 @@ nav {
 */
 
 // Tags
-.tags > .label {
-  > li:before {
-    content: "";
-  }
+.tags {
+  > .label {
+    > li:before {
+      content: "";
+    }
 
-  > li {
-    margin: 0;
-    font-size: $small-font-size;
-    font-weight: 300;
-    display: inline;
+    > li {
+      margin: 0;
+      font-size: $small-font-size;
+      font-weight: 300;
+      display: inline;
 
-    > a {
-      display: inline-block;
-      margin: 1px;
-      color: $tag-index-label-color;
-      background-color: $tag-index-label-background-color;
-      border-radius: 3px;
+      > a {
+        display: inline-block;
+        margin: 1px;
+        color: $tag-index-label-color;
+        background-color: $tag-index-label-background-color;
+        border-radius: 3px;
 
-      span {
-        float: left;
-        padding: .5px 5px;
+        span {
+          float: left;
+          padding: .5px 5px;
 
-        &.count {
-          background-color: $tag-index-count-background-color;
-          border-radius: 0 3px 3px 0;
+          &.count {
+            background-color: $tag-index-count-background-color;
+            border-radius: 0 3px 3px 0;
+          }
         }
       }
     }
   }
-}
 
-.tags > .tag {
-  a {
-    color: $base-color;
-  }
-  time {
-    color: $base-lighten-color;
-    font-size: $small-font-size;
-    font-weight: 300;
-    margin-left: 3px;
+  > .tag {
+    display: none; // 기본적으로 접힌 상태로 설정
+    margin-left: 20px;
+    padding: 10px;
+    border-left: 2px solid $base-lighten-color;
+
+    &.active {
+      display: block; // 펼쳐진 상태를 제어하기 위한 클래스
+    }
+
+    a {
+      color: $base-color;
+    }
+
+    time {
+      color: $base-lighten-color;
+      font-size: $small-font-size;
+      font-weight: 300;
+      margin-left: 3px;
+    }
   }
 }
 
