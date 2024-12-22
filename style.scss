@@ -22,6 +22,7 @@ body {
   font-family: $base-font;
   color: $base-color;
   line-height: 1.6;
+  padding-top: 60px;
 }
 
 .container {
@@ -316,6 +317,7 @@ img {
 }
 
 .masthead {
+  position: fixed;
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
 
