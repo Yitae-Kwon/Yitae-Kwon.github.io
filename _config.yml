@@ -23,6 +23,8 @@ navigation:
     url: /
   - name: About
     url: /about
+  - name: Topics
+    url: /topics
   - name: Notes
     url: /notes
   - name: Tags
