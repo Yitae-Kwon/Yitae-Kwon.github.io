@@ -8,6 +8,17 @@ permalink: /tags/
   <h2>No post found</h2>
 {% endif %}
 
+{% assign custom_order = site.custom_tag_order | split: "," %}
+{% assign sorted_tags = "" | split: "," %}
+
+{% for tag_name in custom_order %}
+  {% for tag in site.tags %}
+    {% if tag[0] == tag_name %}
+      {% assign sorted_tags = sorted_tags | push: tag %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
 <div class="tags">
   <ul class="label">
     {% for tag in site.tags %}

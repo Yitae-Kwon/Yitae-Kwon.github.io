@@ -509,14 +509,15 @@ nav {
     }
 
     > li {
-      margin: 0;
+      margin: 5px 0; /* 태그 간 간격 추가 */
       font-size: $small-font-size;
       font-weight: 300;
-      display: inline;
+      display: block;
 
       > a {
-        display: inline-block;
-        margin: 1px;
+        display: inline-block; /* 필요하면 유지 */
+        margin: 0; /* 마진 조정 */
+        padding: 5px; /* 클릭 영역 확대 */
         color: $tag-index-label-color;
         background-color: $tag-index-label-background-color;
         border-radius: 3px;
