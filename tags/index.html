@@ -20,57 +20,72 @@ permalink: /tags/
 {% endfor %}
 
 <div class="tags">
-  <ul class="label">
-    {% for tag in site.tags %}
-      <li>
-        <a href="javascript:void(0);" class="tag-toggle" data-tag="{{ tag[0] }}">
-          <span>{{ tag[0] }}</span>
-          <span class="count">{{ tag[1] | size }}</span>
-        </a>
-        <ul class="tag-list" id="list-{{ tag[0] }}" style="display: none;">
-          {% for post in tag[1] reversed %}
-            {% if post.title != null %}
-              <li>
-                {% if post.link %}
-                  <a href="{{ post.link }}">
-                {% else %}
-                  <a href="{{ site.baseurl }}{{ post.url }}">
-                {% endif %}
-                  {{ post.title }}
-                </a>
-                <time>{{ post.date | date: "%Y-%m-%d" }}</time>
-              </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </li>
-    {% endfor %}
-  </ul>
+  {% assign categories = "" %}
+
+  {% for tag in site.tags %}
+    {% assign tag_parts = tag[0] | split: "/" %}
+    {% assign category = tag_parts[0] %}
+    {% assign subcategory = tag_parts[1] %}
+
+    {% unless categories contains category %}
+      <h3 class="category-title">{{ category }}</h3> <!-- 중분류 이름 출력 -->
+      <ul class="label">
+      {% assign categories = categories | append: category %}
+    {% endunless %}
+
+    <li>
+      <a href="javascript:void(0);" class="tag-toggle" data-tag="{{ tag[0] }}">
+        <span>{{ subcategory }}</span>
+        <span class="count">{{ tag[1] | size }}</span>
+      </a>
+
+      <ul class="tag-list" id="list-{{ tag[0] }}" style="display: none;">
+        {% for post in tag[1] reversed %}
+          {% if post.title != null %}
+            <li>
+              {% if post.link %}
+                <a href="{{ post.link }}">
+              {% else %}
+                <a href="{{ site.baseurl }}{{ post.url }}">
+              {% endif %}
+                {{ post.title }}
+              </a>
+              <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </li>
+
+    {% if forloop.last %}
+      </ul>
+    {% endif %}
+  {% endfor %}
 </div>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const toggles = document.querySelectorAll(".tag-toggle");
-  
-    toggles.forEach(toggle => {
-      toggle.addEventListener("click", function () {
-        const tagId = this.getAttribute("data-tag");
-        const list = document.getElementById(`list-${tagId}`);
-  
-        // 다른 목록 닫기
-        document.querySelectorAll(".tag-list").forEach(tagList => {
-          if (tagList !== list) {
-            tagList.style.display = "none";
-          }
-        });
-  
-        // 현재 목록 열기/닫기
-        if (list.style.display === "none" || list.style.display === "") {
-          list.style.display = "block";
-        } else {
-          list.style.display = "none";
+  const toggles = document.querySelectorAll(".tag-toggle");
+
+  toggles.forEach(toggle => {
+    toggle.addEventListener("click", function () {
+      const tagId = this.getAttribute("data-tag");
+      const list = document.getElementById(`list-${tagId}`);
+
+      // 다른 목록 닫기
+      document.querySelectorAll(".tag-list").forEach(tagList => {
+        if (tagList !== list) {
+          tagList.style.display = "none";
         }
       });
+
+      // 현재 목록 열기/닫기
+      if (list.style.display === "none" || list.style.display === "") {
+        list.style.display = "block";
+      } else {
+        list.style.display = "none";
+      }
     });
   });
+});
 </script>
