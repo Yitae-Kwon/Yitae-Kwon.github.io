@@ -1,15 +1,13 @@
-<!DOCTYPE html>
-<html>
-  <body>
-      <div id="wrap">
-            <!-- Main content -->
-          <div class="main-layout">
-              <div id="container-search">
-                  <main>
-                      {{ content }}
-                  </main>
-              </div>
-          </div>
-      </div>
-  </body>
-</html>
+<div class="common-header search">
+    <div class="search">
+      <i class="fas fa-search fa-fw"></i>
+      <input id="search-input" 
+        type="search" 
+        tabindex="1" 
+        spellcheck="false" 
+        placeholder="Search"
+      >
+    </div>
+  </div>
+  
+  <ul id="results-container"></ul>
