@@ -6,10 +6,14 @@ permalink: /about/
 
 권이태(Yitae Kwon, 權怡兌)
 
+<br>
+
 ### Employment
 
 - Bank of Korea, Seoul, Republic of Korea [Jan 2025 - *Present*]
     - Junior Economist
+    
+<br>
 
 ### Education
 
@@ -17,14 +21,19 @@ permalink: /about/
     - B.S. in Statistics and Mathematics(double major)
     - B.A. in Economics(double major) 
 
+<br>
+
 ### Academic Interests
 **Statistics**: Causal Inference / Nonparametric Statistics<br>
 **Mathematics**: Learning Theory / Numerical Analysis<br>
 **Economics**: Econometrics / Monetary Economics / Financial Stability
 
+<br>
+
 ### Programming Languages
 R, Python, Julia
 
-### Contact
+<br>
 
+### Contact
 [kwonsnu21@snu.ac.kr](mailto:kwonsnu21@snu.ac.kr)
